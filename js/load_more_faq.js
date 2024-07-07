@@ -1,0 +1,3 @@
+(function(e){"use strict";var n={loadFaq:function(){e(document).on("click",".load-more-faq",function(n){n.preventDefault();e(this).fadeOut(100);let t=100;e(".faq-singular").each(function(){e(this).delay(t).fadeIn("slow");t=t+100})})},init:function(){if(!e(".load-more-faq").length){return}
+n.loadFaq()}};e(document).ready(function(){n.init()})})(jQuery);(function(e){"use strict";var m={loadDesigners:function(){e(document).on("click",".load-more-designers",function(m){m.preventDefault();e(this).fadeOut(100);let t=100;e(".hire_designers_list").each(function(){e(this).delay(t).fadeIn("slow");t=t+100})})},init:function(){if(!e(".load-more-designers").length){return}
+m.loadDesigners()}};e(document).ready(function(){m.init()})})(jQuery);
